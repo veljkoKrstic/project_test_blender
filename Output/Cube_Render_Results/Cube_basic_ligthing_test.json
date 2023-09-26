@@ -1,0 +1,11 @@
+{
+    "TestName": "Cube_basic_ligthing_test",
+    "Test_Executed": "21:20:46.892389 26/09/2023",
+    "Test_Finished": "21:20:46.893390 26/09/2023",
+    "Test_Duration": "0:00:00.00100",
+    "Environment": {
+        "CPU": "AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD",
+        "RAM": "32GB",
+        "OS": "Windows 10 10.0.19045"
+    }
+}

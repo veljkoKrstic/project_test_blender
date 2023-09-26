@@ -1,0 +1,88 @@
+Blender 3.6.3 (hash d3e6b08276ba built 2023-09-21 06:16:13)
+Read prefs: "C:\Users\Veljko\AppData\Roaming\Blender Foundation\Blender\3.6\config\userpref.blend"
+Fra:1 Mem:42.94M (Peak 44.02M) | Time:00:00.22 | Syncing Camera.001
+Fra:1 Mem:42.94M (Peak 44.02M) | Time:00:00.22 | Syncing Light Object
+Fra:1 Mem:42.94M (Peak 44.02M) | Time:00:00.22 | Syncing Cube Object
+Fra:1 Mem:42.98M (Peak 44.02M) | Time:00:00.23 | Rendering 1 / 64 samples
+Fra:1 Mem:42.98M (Peak 44.02M) | Time:00:00.28 | Rendering 26 / 64 samples
+Fra:1 Mem:42.98M (Peak 44.02M) | Time:00:00.31 | Rendering 51 / 64 samples
+Fra:1 Mem:42.98M (Peak 44.02M) | Time:00:00.32 | Rendering 64 / 64 samples
+Saved: 'F:\PythonProjects\project_test_blender\Output\Cube_Render_Results\Cube_basic_ligthing_test.png'
+ Time: 00:00.76 (Saving: 00:00.42)
+
+Fra:1 Mem:74.81M (Peak 74.81M) | Time:00:00.00 | Syncing Camera.002
+Fra:1 Mem:74.81M (Peak 74.81M) | Time:00:00.00 | Syncing Light Object.001
+Fra:1 Mem:74.82M (Peak 74.82M) | Time:00:00.00 | Syncing Sphere Object
+Fra:1 Mem:74.92M (Peak 74.92M) | Time:00:00.01 | Rendering 1 / 64 samples
+Fra:1 Mem:74.88M (Peak 74.92M) | Time:00:00.06 | Rendering 26 / 64 samples
+Fra:1 Mem:74.88M (Peak 74.92M) | Time:00:00.09 | Rendering 51 / 64 samples
+Fra:1 Mem:74.88M (Peak 74.92M) | Time:00:00.11 | Rendering 64 / 64 samples
+Saved: 'F:\PythonProjects\project_test_blender\Output\Spehere_Render_Results\Basic_lighting_sphere_test.png'
+ Time: 00:00.26 (Saving: 00:00.14)
+
+Fra:1 Mem:106.69M (Peak 106.69M) | Time:00:00.00 | Syncing Camera.003
+Fra:1 Mem:106.69M (Peak 106.69M) | Time:00:00.00 | Syncing Point
+Fra:1 Mem:106.70M (Peak 106.70M) | Time:00:00.00 | Syncing Sphere Object.001
+Fra:1 Mem:106.76M (Peak 106.76M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:106.72M (Peak 106.76M) | Time:00:00.05 | Rendering 26 / 64 samples
+Fra:1 Mem:106.72M (Peak 106.76M) | Time:00:00.08 | Rendering 51 / 64 samples
+Fra:1 Mem:106.72M (Peak 106.76M) | Time:00:00.10 | Rendering 64 / 64 samples
+Saved: 'F:\PythonProjects\project_test_blender\Output\Sphere_Night_Render_Results\nightligh_sphere_test.png'
+ Time: 00:00.25 (Saving: 00:00.14)
+
+First test started. Cube test is starting execution.
+
+New scene is successfully created
+Default light is set up
+Camera is placed
+
+Environment is set up
+Cube object is created
+Cube object is edited and setup
+Test is finished. Exporting results.
+JSON report for Cube_basic_ligthing_test is created
+Results in: F:\PythonProjects\project_test_blender\Output\Cube_Render_Results\Cube_basic_ligthing_test.json
+Render of Cube_basic_ligthing_test is saved
+Results in: F:\PythonProjects\project_test_blender\Output\Cube_Render_Results\Cube_basic_ligthing_test.png
+Cube_basic_ligthing_test Passed
+Results saved in Output folder.
+==================================================
+
+Second test started. Sphere colored test is starting execution.
+
+New scene is successfully created
+Default light is set up
+Camera is placed
+
+Environment is set up
+Sphere object is created
+Sphere object is edited and setup. Material and color is added. Sphere is red.
+Test is finished. Exporting results.
+JSON report for Basic_lighting_sphere_test is created
+Results in: F:\PythonProjects\project_test_blender\Output\Spehere_Render_Results\Basic_lighting_sphere_test.json
+Render of Basic_lighting_sphere_test is saved
+Results in: F:\PythonProjects\project_test_blender\Output\Spehere_Render_Results\Basic_lighting_sphere_test.png
+Basic_lighting_sphere_test Passed
+Results saved in Output folder.
+==================================================
+
+Third test started. Spehere low light test is starting execution.
+
+New scene is successfully created
+Night light is set up
+Camera is placed
+
+Environment is set up with low light
+Sphere object is created
+Sphere object is edited and setup. Material and color is added. Sphere is red.
+Test is finished. Exporting results.
+JSON report for nightligh_sphere_test is created
+Results in: F:\PythonProjects\project_test_blender\Output\Sphere_Night_Render_Results\nightligh_sphere_test.json
+Render of nightligh_sphere_test is saved
+Results in: F:\PythonProjects\project_test_blender\Output\Sphere_Night_Render_Results\nightligh_sphere_test.png
+Low_lighting_sphere_test Passed
+Results saved in Output folder.
+==================================================
+
+
+Blender quit

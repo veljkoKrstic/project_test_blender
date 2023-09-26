@@ -222,9 +222,9 @@ class Blender_Test:
 
 p=Blender_Test()
 
-cube_test_renders_output='F:\PythonProjects\project_test_blender\Output\Cube_Render_Results'
-sphere_test_renders_output='F:\PythonProjects\project_test_blender\Output\Spehere_Render_Results'
-night_sphere_test_renders_output='F:\PythonProjects\project_test_blender\Output\Sphere_Night_Render_Results'
+cube_test_renders_output='F:\PythonProjects\project_test_blender\output\cube_render_results'
+sphere_test_renders_output='F:\PythonProjects\project_test_blender\output\sphere_render_results'
+night_sphere_test_renders_output='F:\PythonProjects\project_test_blender\output\sphere_night_render_results'
 
 p.create_cube_test(cube_test_renders_output,1920,1080)
 p.create_sphere_test_basic_light(sphere_test_renders_output,1920,1080)

@@ -8,6 +8,7 @@ I am new to Blender, never used it before, so i am have a lot of questions regar
 Also i was not sure if data for json file regarding environment are needed to be fixed or dynamic based on where the test was executed so i did them dinamically but i was not able to do that for RAM because i needed "psutil" library and ,because i am not familiar with blender, i was not sure how external libraries are handled inside blender.
 Also i was not able to export render logs inside code using any bpy function, because all of existing ones were deleted. But i created script the way that if you run it in the way explained below there is log file created.
 Also i could create class with fields for blender_path and output_path  but that would not go with the task, as well as to create one function that gets another function as argument, sets up scene, camera and lighting, executes function from argument and export all necessary files, but that as well would not go with given task, so i kept it simple but not as optimized as i could make it. If needed i could do that too.
+P.S. Later on i learned that i can run this script without blender when i download bpy but it only works on python 3.10 so i could get all data dinamcally.
 
 # Structure of code
 Structure is designed this way and could not be made any other way because when blender runs command it changes location in system and I could not target test_module.py file from there.

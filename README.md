@@ -19,6 +19,8 @@ I did tasks object oriented, created Blender_Test class which has next methods:
 ## 4.render_image()
 ## 5.export_json()
 ## 6.create_cube_test()
+## 7.create_sphere_test_basic_light()
+## 8.create_sphere_test_night_light()
 
 # Functions that were necessary for executing tasks properly
 ## 1.create_new_scene()
